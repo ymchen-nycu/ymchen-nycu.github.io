@@ -113,6 +113,7 @@ header.scrolled .header-container {
     font-size: 1.5rem;
     margin: 0;
     line-height: 1.2;
+    text-align: left;
 }
 
 /* === 導覽列容器 === */
@@ -229,7 +230,6 @@ header.scrolled .header-container {
 
 /* === 手機版響應式 === */
 @media (max-width: 768px) {
-
     .header-container {
         padding: 18px 10px;
         gap: 25px;
