@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>雪花與積雪特效</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: transparent; /* 保持原本背景 */
+      overflow: hidden;
+      height: 100vh;
+    }
+
+    /* 雪花 */
+    .snowflake {
+      position: absolute;
+      top: -10px;
+      color: #add8e6; /* 淡藍色 */
+      font-size: 20px;
+      pointer-events: none;
+      animation-name: fall;
+      animation-timing-function: linear;
+    }
+
+    @keyframes fall {
+      to { transform: translateY(100vh); }
+    }
+
+    /* 積雪層 */
+    #snow-ground {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 0; /* 初始高度 */
+      background: #add8e6; /* 淡藍色積雪 */
+      clip-path: polygon(
+        0% 100%, 0% 90%, 10% 92%, 20% 88%, 30% 93%, 
+        40% 87%, 50% 92%, 60% 89%, 70% 94%, 
+        80% 88%, 90% 93%, 100% 90%, 100% 100%
+      );
+      transition: height 0.5s ease;
+      pointer-events: none;
+      z-index: 9999;
+    }
+  </style>
+</head>
+<body>
+  <div id="snow-ground"></div>
+
+  <script>
+    const ground = document.getElementById("snow-ground");
+
+    // 生成雪花
+    function createSnowflake() {
+      const snowflake = document.createElement("div");
+      snowflake.classList.add("snowflake");
+      snowflake.textContent = "❄";
+      snowflake.style.left = Math.random() * window.innerWidth + "px";
+      snowflake.style.fontSize = Math.random() * 20 + 10 + "px";
+      snowflake.style.opacity = Math.random() * 0.5 + 0.5;
+      const fallDuration = Math.random() * 5 + 5;
+      snowflake.style.animationDuration = fallDuration + "s";
+      document.body.appendChild(snowflake);
+
+      setTimeout(() => {
+        snowflake.remove();
+        increaseSnowGround(); // 增加積雪
+      }, fallDuration * 1000);
+    }
+
+    setInterval(createSnowflake, 200);
+
+    // 增加積雪高度
+    function increaseSnowGround() {
+      let currentHeight = parseInt(window.getComputedStyle(ground).height);
+      if (currentHeight < 120) {
+        ground.style.height = (currentHeight + 2) + "px";
+      }
+    }
+  </script>
+</body>
+</html>
