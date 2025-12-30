@@ -1,35 +1,5 @@
 {
     "MS": {
-        "114": {
-            "folder": "images/Members/MS/114",
-            "members": [
-                {
-                    "name": "林奕澍",
-                    "desc": "<b>Thesis:</b><br>可變長度錯誤更正碼輔助之文字語義編碼傳輸方案<br>Variable-Length Error Correcting Code Aided Semantic Coding Scheme for Text Transmission",
-                    "photo": "Yishu_Lin.jpg"
-                },
-                {
-                    "name": "胡誌宜",
-                    "desc": "",
-                    "photo": "Zhiyi_Hu.jpg"
-                },
-                {
-                    "name": "趙婉琪",
-                    "desc": "",
-                    "photo": "Wanchi_Zhao.jpg"
-                },
-                {
-                    "name": "劉友生",
-                    "desc": "<b>Thesis:</b><br>基於外部資訊追蹤的雙原型圖低密度奇偶檢查碼設計演算法<br>A Design Algorithm for Double Protograph Low-Density Parity-Check Codes Based on Extrinsic Imformation Tracking<br><br><b>Email:</b><br><a href='mailto:yousheng424@gmail.com'>yousheng424@gmail.com</a>",
-                    "photo": "Yousheng_Liu.jpg"
-                },
-                {
-                    "name": "蔡政紘",
-                    "desc": "",
-                    "photo": "Zhenghong_Cai.jpg"
-                }
-            ]
-        },
         "115": {
             "folder": "images/Members/MS/115",
             "members": [

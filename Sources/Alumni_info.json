@@ -139,6 +139,31 @@
             }
         ]
     },
+    "114": {
+        "folder": "images/Members/MS/114",
+        "members": [
+            {
+                "name": "林奕澍",
+                "desc": "<b>Thesis:</b><br>可變長度錯誤更正碼輔助之文字語義編碼傳輸方案<br>Variable-Length Error Correcting Code Aided Semantic Coding Scheme for Text Transmission",
+                "photo": "Yishu_Lin.jpg"
+            },
+            {
+                "name": "趙婉琪",
+                "desc": "<b>Thesis:</b><br>用於生物特徵模糊承諾系統之低密度同位檢查碼的最佳化與建構策略<br>Optimization and Construction Strategies for Low-Density Parity-Check Codes in Biometric Fuzzy Commitment Systems",
+                "photo": "Wanchi_Zhao.jpg"
+            },
+            {
+                "name": "劉友生",
+                "desc": "<b>Thesis:</b><br>基於外部資訊追蹤的雙原型圖低密度奇偶檢查碼設計演算法<br>A Design Algorithm for Double Protograph Low-Density Parity-Check Codes Based on Extrinsic Imformation Tracking<br><br><b>Email:</b><br><a href='mailto:yousheng424@gmail.com'>yousheng424@gmail.com</a>",
+                "photo": "Yousheng_Liu.jpg"
+            },
+            {
+                "name": "蔡政紘",
+                "desc": "<b>Thesis:</b><br>針對可移動星座延展輔助多輸入多輸出系統預編碼方法的深入研究<br>In-depth Investigation of Active Constellation Extension Aided Robust Precoding for MIMO Systems",
+                "photo": "Zhenghong_Cai.jpg"
+            }
+        ]
+    },
     "PhD": {
         "folder": "images/Members/Alumni/PhD",
         "members": [
