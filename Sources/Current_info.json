@@ -54,6 +54,36 @@
                     "photo": "Ruixuan_Wu.jpeg"
                 }
             ]
+        },
+        "117": {
+            "folder": "images/Members/MS/117",
+            "members": [
+                {
+                    "name": "曾柏豫",
+                    "desc": "<b>Email:</b><br><a href='mailto:'></a>",
+                    "photo": "Boyu_Zeng.jpeg"
+                },
+                {
+                    "name": "沈峻毅",
+                    "desc": "<b>Email:</b><br><a href='mailto:'></a>",
+                    "photo": "Junyi_Shen.jpeg"
+                },
+                {
+                    "name": "邱詩晴",
+                    "desc": "<b>Email:</b><br><a href='mailto:'></a>",
+                    "photo": "Shiqing_Qiu.jpg"
+                },
+                {
+                    "name": "李昱緯",
+                    "desc": "<b>Email:</b><br><a href='mailto:'></a>",
+                    "photo": "Yuwei_Li.jpg"
+                },
+                {
+                    "name": "張旻瑄",
+                    "desc": "<b>Email:</b><br><a href='mailto:'></a>",
+                    "photo": "Minxuan_Zhang.jpg"
+                }
+            ]
         }
     },
     "PhD": {
