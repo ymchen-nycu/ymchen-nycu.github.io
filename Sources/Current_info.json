@@ -66,7 +66,7 @@
                 {
                     "name": "沈峻毅",
                     "desc": "<b>Email:</b><br><a href='mailto:chris105217@gmail.com'>chris105217@gmail.com</a>",
-                    "photo": "Junyi_Shen.jpeg"
+                    "photo": "Junyi_Shen.jpg"
                 },
                 {
                     "name": "邱詩晴",
@@ -77,6 +77,11 @@
                     "name": "張旻瑄",
                     "desc": "<b>Email:</b><br><a href='mailto:'></a>",
                     "photo": "Minxuan_Zhang.jpeg"
+                },
+                {
+                    "name": "曾曉剛",
+                    "desc": "<b>Email:</b><br><a href='mailto:angel95087@gmail.com'>angel95087@gmail.com</a>",
+                    "photo": "Xiaogang_Zeng.jpeg"
                 }
             ]
         }
